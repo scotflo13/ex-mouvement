@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: red;
+  border-radius: 2px;
+}
+p {
+	display: inline-block;
+	margin: 10px;
+}
+img {
+  position: relative;
+}
+form {
+	margin-bottom: 50px;
+}
+
+.translation {
+	position: relative;
+}

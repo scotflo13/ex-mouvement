@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="javascript" type="text/javascript" href="js/javascript.js">
+  <meta charset="utf-8">
+  <title>Déplacement image</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="encadre">
+      <form method="post" action="#">
+        <p>
+          <label for="x">X:</label>
+          <input type="number" id="x" />
+        </p>
+        <p>
+          <label for="y">Y:</label>
+          <input type="number" id="y" />
+        </p>
+        <p>
+          <input type="button" value="MOVE" id="move">
+        </p>
+      </form>
+    </div>
+  </div>
+  <div class="translation">
+    <img src=img/logoM.jpg id="image" />
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/javascript.js"></script>
+
+
+
+</body>
+
+</html>
